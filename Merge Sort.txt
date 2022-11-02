@@ -1,0 +1,17 @@
+# Merge Sort 
+Dizi:[16,21,11,8,12,22]
+
+## İlk Adım: Dizimizi İkiye Ayırırız
+[16,21,11]                        [8,12,22]
+
+## İkinci Adım: Ayrılan Dizimizi bir kere daha 2'ye böleriz
+[16,21,11]                        [8,12,22]
+[16,21]  [11]                     [8,12]   [22]
+
+## Üçüncü Adım: Tek eleman kalana kadar bir daha bölünür
+[16] [21] [11]                    [8] [12] [22]
+
+## Dördüncü Adım: Birleştirme aşamasına geçildi.
+[16,21]  [11]                       [8,12]  [22]
+       [16,11,21]              [8,12,22]
+                [8,11,12,16,21,22]
